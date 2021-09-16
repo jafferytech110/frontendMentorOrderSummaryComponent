@@ -8,7 +8,7 @@
 :root {
   --grey-color: hsl(0, 0%, 49%);
   --black-color: rgb(43, 43, 43);
-  --body-color: hsl(0, 0%, 94%);
+  --body-color: #fdfcfa;
   --cyan: hsl(180, 62%, 55%);
   --blue: hsl(212, 86%, 64%);
   --red: hsl(0, 78%, 62%);
@@ -95,6 +95,10 @@ header p {
   padding: 20px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.card1:hover,
+.card3:hover {
+  transform: scale(1.2);
+}
 
 .card1 {
   border-top: 3px solid var(--cyan);
@@ -116,6 +120,10 @@ header p {
   height: 180px;
   padding: 20px;
   border-radius: 10px;
+}
+.card2-1:hover,
+.card2-2:hover {
+  transform: scale(1.2);
 }
 
 .card2-1 {
